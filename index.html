@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <!--Box icon cdn--> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+    <!--swiper css--> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header-->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="logo"><span class="mark" aria-hidden></span> MarketNet</div>
+            
+        <nav id="nav" class="menu-links" aria-label="Main navigation">
+            <a href="#home" style="--i:1" class="home">Home</a>
+            <a href="#about" style="--i:2" class="about">About Us</a>
+            <a href="#services" style="--i:3" class="services">Services</a>
+            <a href="#contact" style="--i:4" class="contact">Contact Us</a>
+            <a class="cta" href="#!">Get Started</a>
+        </nav>
+        <!-- بهبود hamburger برای دسترسی بهتر -->
+        <div class="hamburger" aria-label="Toggle menu" role="button" tabindex="0" aria-expanded="false">☰</div>
+
+        </div>
+    </header>    
+
+    <!--HERO-->
+    <section class="hero" aria-label="Hero">
+        <div class="hero-left">
+            <span class="tag">#PREMIUM SERVICES</span>
+            <h1>Welcome to <br/>Creative Digital <br/><span class="accent">Agency</span></h1>
+            <p class="lead">We fuse modern design, strategic digital marketing, and powerful development into a single, 
+                seamless process. Let's create something extraordinary together.</p>               
+            <div class="btn-row">
+                <button class="btn outline">OUR SERVICES</button>
+                <button class="btn primary">DISCOVER MORE</button>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="purple-shape" aria-hidden>
+                <!-- circular photo area -->
+                <div class="hero-photo" id="heroPhoto">
+                    <img src="images/hero.jpg" alt="team work">
+                    <!-- Inline SVG illustration as placeholder -->
+                </div>
+
+                <!-- floating cards -->
+                <div class="floating f1">
+                    <div class="icon-box" aria-hidden>
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                            <path d="M4 16L8.5 11.5L12 14L20 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="20" cy="6" r="2" fill="white"/>
+                        </svg>
+                    </div>
+                    <div>Skills</div>
+                </div>
+
+                <div class="floating f2">
+                    <div class="icon-box" aria-hidden>
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="8" stroke="white" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="1.5" fill="white"/>
+                        </svg>
+                    </div>
+                    <div>Reports</div>
+                </div>
+
+                <div class="floating f3">
+                    <div class="icon-box" aria-hidden>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 3C6 3 6 6 6 6V18C6 18 6 21 9 21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M15 3C18 3 18 6 18 6V18C18 18 18 21 15 21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="9" cy="9" r="1.5" fill="white"/>
+                            <circle cx="15" cy="15" r="1.5" fill="white"/>
+                        </svg>
+                    </div>
+                    <div>Analytics</div>
+                </div>
+            <div class="dec-dots" aria-hidden></div>
+        </div>       
+    </section>
+
+    <!--counter-->
+    <section class="counter-section">
+        <div class="counter-box">
+            <div>
+                <h2 class="counter" data-target="10000">0</h2>
+                <p>Project Completed</p>
+            </div>
+            <div>
+                <h2 class="counter" data-target="1500">0</h2>
+                <p>Active Clients</p>
+            </div>
+            <div>
+                <h2 class="counter" data-target="850">0</h2>
+                <p>Cup of Coffee</p>
+            </div>
+            <div>
+                <h2 class="counter" data-target="700">0</h2>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section class="about-section" aria-label="About Us">
+        <div class="about-container">
+            <!-- شکل سمت چپ -->
+            <!-- شکل سمت چپ - دایره ژله‌ای -->
+            <div class="about-shape">
+                <div class="jelly-circle">
+                    <div class="image-frame">
+                        <img src="images/about.jpg" alt="About Us Image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- محتوای سمت راست -->
+            <div class="about-content">
+                <h3 class="subheading">ABOUT US</h3>
+                <h2 class="heading">We Are <span class="accent">Creative</span> Digital Agency</h2>
+                <p class="commonPara">
+                We fuse modern design, strategic digital marketing, and powerful development into a single, seamless process. Let's create something extraordinary together.
+                </p>
+                <ul class="feature-list">
+                    <li><i class="bx bxs-check-square"></i> Innovative Solutions</li>
+                    <li><i class="bx bxs-check-square"></i> Dedicated Team</li>
+                    <li><i class="bx bxs-check-square"></i> 24/7 Support</li>
+                </ul>
+
+                <div class="signature">
+                    <img src="images/photo22323476182.jpg" alt="">         
+                    <div class="signature-info">
+                        <strong>Robert Smith</strong>
+                        CEO & Founder
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--services-->
+    <section class="services pattern-bg">
+        <h2>Our Services</h2>       
+        <div class="underline"></div>
+
+        <div class="services-container">
+            <div class="service-card">
+                <div class="icon">
+                    <img src="images/code-alt.png" alt="">  
+                </div>
+                    <h3>Web & Mobile Development</h3>
+                    <p>Robust digital solutions optimized for performance and scalability.</p>
+                <button class="btn outline">Read More</button>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">
+                    <img src="images/dock-right-arrow.png" alt="">  
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Intuitive interfaces that enhance user engagement and drive conversions.</p>
+                <button class="btn outline">Read More</button>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">
+                    <img src="images/hand-coin-line.png" alt="">  
+                </div>
+                <h3>Product Management</h3>
+                <p>End-to-end product lifecycle management from concept to launch.</p>
+                <button class="btn outline">Read More</button>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">
+                    <img src="images/megaphone-alt (1).png" alt="">  
+                </div>
+                <h3>Marketing & Communications</h3>
+                <p>Strategic campaigns that build brand presence and customer relationships.</p>
+                <button class="btn outline">Read More</button>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">
+                    <img src="images/chart-trend.png" alt="">  
+                </div>
+                <h3>Business Development</h3>
+                <p>Growth strategies that expand market reach and drive revenue.</p>
+                <button class="btn outline">Read More</button>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">
+                    <img src="images/mail-open.png" alt="">
+                </div>
+                <h3>Email Management</h3>
+                <p>Professional communication handling that ensures timely responses.</p>
+                <button class="btn outline">Read More</button>
+            </div>
+        </div>
+        <div class="see-all">
+            <a href="javascript:void()" class="btn primary">See All</a>
+        </div>
+    </section>
+
+    <!--why-choose-us-->
+    <section class="whyChooseSection pattern-bg">
+        <h2>Why Choose Us</h2>
+        <div class="underline"></div>
+
+        <div class="choose-section">
+            <div class="choose-left">
+                <h3>Excellence That Sets Us Apart</h3>
+                <p>With over a decade of industry leadership and a team of certified professionals, we deliver innovative solutions that drive measurable business growth and sustainable success.</p>
+
+                <div class="features-box">
+                    <div class="feature">
+                        <div class="featureIcon">
+                            <i class="bx bx-bulb"></i>
+                            <div>
+                                <h4>Innovative Solutions</h4>
+                                <p>Creative strategies that drive measurable growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="featureIcon">
+                            <i class="bx bx-dollar"></i>
+                            <div>
+                                <h4>100% Moneyback Guarantee</h4>
+                                <p>Risk-free investment with satisfaction guarantee.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="featureIcon">
+                            <i class="bx bx-headphone"></i>
+                            <div>
+                                <h4>24/7 Live Supports</h4>
+                                <p>Expert assistance available anytime.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="choose-right">
+                <div class="play-btn" id="playBtn"></div>
+
+                <div class="video-overlay" id="videoOverlay">
+                    <span class="close-btn" id="closeBtn">&times;</span>
+                    <video id="video" controls autoplay>
+                        <source src="images/video.mp4" type="video/mp4">
+                        your Browser dose not support html video
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--business-->
+    <section class="business-section" aria-label="Business growth section">
+        <div class="business-left">
+            <div class="tag">FACT TO KNOW</div>
+            <h2>Grow your business & <br/> Experience endless possiblilities</h2>
+            <p>Transform your business with our innovative solutions and expert guidance.</p>
+            <a href="#contact" class="btn">Discover More</a>
+        </div>
+
+        <div class="business-right">
+            <div class="consult-card">
+                <div class="consult-box">FREE CONSULTATION</div>
+                <img src="images/photo22268126857.jpg" alt="banner">
+                <div class="consult-content">
+                    <div class="icon-wrapper">
+                        <div class="pulse-circle" aria-hidden="true"></div>
+                        <div class="callIcon">
+                            <i class="bx bxs-phone" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <h4>For Consultation</h4>
+                    <p>call +833-232-2323</p>
+                </div>
+            </div>
+        </div>           
+    </section>
+
+    <section class="info-section" aria-label="Company values">
+        <div class="info-card">
+            <div class="card-icon">🎯</div> <!-- اضافه کردم -->
+            <h3>Our Mission</h3>
+            <p>To empower businesses with innovative solutions for sustainable growth.</p>
+        </div>
+        <div class="info-card">
+            <div class="card-icon">🚀</div> <!-- اضافه کردم -->
+            <h3>Our Vision</h3>
+            <p>To be the leading partner for businesses seeking transformation</p>
+        </div>
+        <div class="info-card">
+            <div class="card-icon">⭐</div> <!-- اضافه کردم -->
+            <h3>Our Values</h3>
+            <p>Integrity, innovation, and excellence in everything we do.</p>
+        </div>
+    </section>
+
+    <!--team-section-->
+    <section class="team-section">
+        <div class="team-header">
+            <div class="tag">Our Team Members</div>
+            <h2>Meet Our Team</h2>
+            <p class="lead">We are a group of passionate professionals dedicated to delivering exceptional results.</p>
+            <button class="view-btn">View All Team Members</button>
+        </div>
+
+        <div class="swiper team-slider">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="image-container">
+                            <img src="images/slide1.jpg" alt="member1">
+                        </div>
+                        <h3>Carlos Morshedlous</h3>
+                        <div class="role">UI/UX Design</div>
+                        <div class="socials">
+                            <a href="javascript:void(0)"><i class="bx bxl-facebook"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-instagram"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-pinterest-alt"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="image-container">
+                            <img src="images/slide2.jpg" alt="member1">
+                        </div>      
+                        <h3>Anna Ivanova</h3>
+                        <div class="role">Web Developer</div>
+                        <div class="socials">
+                            <a href="javascript:void(0)"><i class="bx bxl-facebook"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-instagram"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-pinterest-alt"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="image-container">
+                            <img src="images/slide3.jpg" alt="member1">
+                        </div> 
+                        <h3>Mishel Eletu</h3>
+                        <div class="role">Photographer</div>
+                        <div class="socials">
+                            <a href="javascript:void(0)"><i class="bx bxl-facebook"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-instagram"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-pinterest-alt"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="image-container">
+                            <img src="images/slide4.jpg" alt="member1">
+                        </div>
+                        <h3>Nick Morrision</h3>
+                        <div class="role">Digital Marketer</div>
+                        <div class="socials">
+                            <a href="javascript:void(0)"><i class="bx bxl-facebook"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-instagram"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-pinterest-alt"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="image-container">
+                            <img src="images/slide5.jpg" alt="member1">
+                        </div>
+                        <h3>Maria Silva</h3>
+                        <div class="role">Digital Marketer</div>
+                        <div class="socials">
+                            <a href="javascript:void(0)"><i class="bx bxl-facebook"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-instagram"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-pinterest-alt"></i></a>
+                            <a href="javascript:void(0)"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <button class="nav-btn nav-prev">
+                <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="nav-btn nav-next">
+                <i class="bx bx-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+
+    <!--newsletter-->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-wrapper">
+                <div class="newsletter-content">
+                    <h2>Let's Grow Your Business <span class="highlight">Together</span></h2>
+                    <p class="subtitle">Get exclusive insights, tips, and resources delivered directly to your inbox. Join our community of successful entrepreneurs.</p>
+                
+                    <div class="email-box">
+                        <div class="input-wrapper">
+                            <i class='bx bx-envelope'></i>
+                            <input type="email" placeholder="Enter your business email address" required>
+                            <button type="submit" class="submit-btn">
+                            Subscribe
+                                <i class='bx bx-send'></i>
+                            </button>
+                        </div>
+                        <p class="privacy-note">By subscribing, you agree to our Privacy Policy. No spam ever.</p>
+                    </div>
+                </div>
+            
+                <div class="newsletter-image">
+                    <div class="image-wrapper">
+                        <img src="images/newsletter.jpg" alt="Business Growth">
+                        <div class="floating-badge">
+                            <i class='bx bx-trending-up'></i>
+                            <span>+45% Growth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <!-- Background Dots -->
+        <div class="background-dots">
+            <div class="dots-top-left"></div>
+            <div class="dots-bottom-right"></div>
+        </div>
+        
+        <h2>PRICING PLANS</h2>
+        <p class="price-heading">Choose the perfect plan for your business needs. All plans include our core features with different levels of support and optimization.</p>
+        
+        <div class="pricing-cards">
+            <!-- Left Card -->
+            <div class="card">
+                <h3>BASIC</h3>
+                <div class="price-container">
+                    <div class="price">$140</div>
+                    <small>/ Monthly</small>
+                </div>
+                <hr/>
+                <div class="features">
+                    <p><i class="fas fa-check"></i> 10 Keywords Optimized</p>
+                    <p><i class="fas fa-check"></i> 3 Top 10 Rankings</p>
+                    <p><i class="fas fa-check"></i> Content Optimization</p>
+                    <p><i class="fas fa-check"></i> Basic Data Control</p>
+                    <p><i class="fas fa-check"></i> Email Support</p>
+                </div>
+                <a href="javascript:void(0)" class="primary-btn">PURCHASE</a>
+            </div>
+            
+            <!-- Middle Card (Highlighted) -->
+            <div class="card highlight">
+                <span class="badge">SAVE 30%</span>
+                <h3>PRO</h3>
+                <div class="price-container">
+                    <div class="price">$250</div>
+                    <small>/ Monthly</small>
+                </div>
+                <hr/>
+                <div class="features">
+                    <p><i class="fas fa-check"></i> 25 Keywords Optimized</p>
+                    <p><i class="fas fa-check"></i> 6 Top 10 Rankings</p>
+                    <p><i class="fas fa-check"></i> Advanced Content Optimization</p>
+                    <p><i class="fas fa-check"></i> Full Data Control</p>
+                    <p><i class="fas fa-check"></i> Priority Email & Chat Support</p>
+                    <p><i class="fas fa-check"></i> Weekly Analytics Reports</p>
+                </div>
+                <a href="javascript:void(0)" class="primary-btn">PURCHASE</a>
+            </div>
+            
+            <!-- Right Card -->
+            <div class="card">
+                <h3>ENTERPRISE</h3>
+                <div class="price-container">
+                    <div class="price">$490</div>
+                    <small>/ Monthly</small>
+                </div>
+                <hr/>
+                <div class="features">
+                    <p><i class="fas fa-check"></i> Unlimited Keywords Optimized</p>
+                    <p><i class="fas fa-check"></i> 10+ Top 10 Rankings</p>
+                    <p><i class="fas fa-check"></i> Full Content Optimization</p>
+                    <p><i class="fas fa-check"></i> Advanced Data Control</p>
+                    <p><i class="fas fa-check"></i> 24/7 Phone & Email Support</p>
+                    <p><i class="fas fa-check"></i> Daily Analytics Reports</p>
+                    <p><i class="fas fa-check"></i> Dedicated Account Manager</p>
+                </div>
+                <a href="javascript:void(0)" class="primary-btn">PURCHASE</a>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <button id="backToTop" aria-label="Back to top">
+        <i class="bx bx-up-arrow-alt"></i>
+    </button>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo-section">
+                    <div class="logo">
+                        <i class="bx bxl-magento"></i>
+                        <span class="logo-text">MarketNet</span>
+                    </div>
+                    <p class="logo-tagline">Digital marketing solutions for modern businesses</p>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-title">Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Paid Advertising</a></li>
+                    <li><a href="#" class="footer-link">Website Development</a></li>
+                    <li><a href="#" class="footer-link">SEO Optimization</a></li>
+                    <li><a href="#" class="footer-link">CRM Marketing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-title">Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Compliance</a></li>
+                    <li><a href="#" class="footer-link">Case Studies</a></li>
+                    <li><a href="#" class="footer-link">Webinars</a></li>
+                    <li><a href="#" class="footer-link">Developers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-title">Contact Information</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="bx bxs-envelope contact-icon"></i>
+                        <span class="contact-text">digital@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="bx bxs-phone contact-icon"></i>
+                        <span class="contact-text">+2323-232-2323</span>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Pinterest">
+                        <i class="bx bxl-pinterest-alt"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                </div>               
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2023 MarketNet. All rights reserved.</p>
+        </div>
+    </footer>
+  
+    <!--swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
